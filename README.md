@@ -8,7 +8,7 @@ Team Leader: Xhesilda Kullolli
 Members:
 - Member 1: Xhesilda Kullolli | Its Xhesi | xkullolli22@epoka.edu.al
 - Member 2: Megi Bicaku  |mbicaku22 | mbicakuu22@epoka.edu.al
-- Member 3: Erisilda Zhaboli | erisilda23 | ezhaoli23@epoka.edu.al
+- Member 3: Erisilda Zhaboli | erisilda23 | ezhaboli23@epoka.edu.al
 - Member 4: Xhoel Markuli |xhoelmerkuli | xmarkuli25@epoka.edu.al
 
 --------------------------------------------------
