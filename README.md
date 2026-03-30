@@ -51,7 +51,7 @@ Team Leader: Xhesilda Kullolli
 - Handles submission
 
 Member Roles:
-1. Research and Problem Analysis: Erisilda Zhabaku
+1. Research and Problem Analysis: Erisilda Zhaboli
    - Researches the cafeteria queue problem
    - Explains the real-life need for the system
    - Helps write the problem statement and objectives
