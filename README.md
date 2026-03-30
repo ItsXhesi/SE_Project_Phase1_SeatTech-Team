@@ -16,7 +16,7 @@ Members:
 2. Project Details
 
 Project Title:
-Smart Cafeteria System
+Smart Cafeteria System.
 
 Problem Statement:
 University cafeterias often experience long waiting lines during break hours. Students waste valuable time waiting to order food, and in many cases, food runs out before some students reach the counter. This creates inconvenience, frustration, and inefficiency for both students and cafeteria staff. The lack of an organized digital system makes the ordering process slow and unfair, especially during peak hours.
