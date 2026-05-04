@@ -3,13 +3,21 @@ The University Cafeteria Pre-Order System is designed to help students order foo
 A) UML Diagram
 https://lucid.app/lucidchart/af3c90a8-6568-4788-8f05-83e6f455d18d/edit?invitationId=inv_5efb1c7b-35c2-4beb-8ecb-e0aebc16f9e0
 
-The diagram is divided into three sections: users and application (left), main system components (middle), and supporting components (right).
-On the left, Students use the system to log in, view the menu, place orders, and receive updates. Cafeteria Staff manage and update order statuses, while the Admin controls users, menu, stock, and reports. All interactions happen through the Smart Cafeteria Web Application.
+Left side of the diagram:
+Smart Cafeteria System: is the main system that connects all components to each other and controls the overall operation.
+Components (middle part):
+User Management: manages user information and login to the system.
+Menu Management: manages the cafeteria menu and available products.
+Order Management: deals with the creation and processing of orders from users.
+Pickup Slot Management: manages the times when orders can be picked up by customers/students.
+Notification Management: sends notifications about order status or changes in the system.
+Report Management: creates reports on orders, users, and cafeteria operations.
 
-In the middle, core components handle system functions. User Management manages login and roles, Menu Management controls menu items, and Order Management processes orders. Pickup Slot Management organizes collection times, Notification Management sends updates, and Report Management generates reports.
-
-On the right, supporting components ensure system operation. Security controls access, Data Access connects to the database, and the Cafeteria Database stores all system data.
-When users log in, their requests are sent to the relevant component. These components use Data Access to interact with the database, while Security verifies permissions. Notifications keep students informed about their orders, making the system efficient for all users.
+Right side of the diagram:
+Security: controls system security, user access, and data protection.
+Persistence: maintains data in the system and ensures that information is not lost.
+Cafeteria Database: is the database where user data, menus, orders, and reports are stored.
+Data Access: shows the connection that reads and writes data from the database. This component helps other components retrieve or store information in the database.
 
 B) Class Diagram
  https://lucid.app/lucidchart/9275ce97-93a4-4ed5-9ce1-81c178bdd146/edit?view_items=nflUETDp-cxI&page=0_0&invitationId=inv_87f7233d-9807-4445-b5d0-f5087e731562
