@@ -1,5 +1,7 @@
 The University Cafeteria Pre-Order System is designed to help students order food before break time, avoid long queues, and check if food is still available. The system has different parts that work together: the student interface, staff interface, order management, payment handling, food availability management, notification system, and database.
+
 A) UML Diagram
+https://lucid.app/lucidchart/af3c90a8-6568-4788-8f05-83e6f455d18d/edit?invitationId=inv_5efb1c7b-35c2-4beb-8ecb-e0aebc16f9e0
 
 The diagram is divided into three sections: users and application (left), main system components (middle), and supporting components (right).
 On the left, Students use the system to log in, view the menu, place orders, and receive updates. Cafeteria Staff manage and update order statuses, while the Admin controls users, menu, stock, and reports. All interactions happen through the Smart Cafeteria Web Application.
@@ -7,10 +9,10 @@ On the left, Students use the system to log in, view the menu, place orders, and
 In the middle, core components handle system functions. User Management manages login and roles, Menu Management controls menu items, and Order Management processes orders. Pickup Slot Management organizes collection times, Notification Management sends updates, and Report Management generates reports.
 
 On the right, supporting components ensure system operation. Security controls access, Data Access connects to the database, and the Cafeteria Database stores all system data.
-
 When users log in, their requests are sent to the relevant component. These components use Data Access to interact with the database, while Security verifies permissions. Notifications keep students informed about their orders, making the system efficient for all users.
- B) Class Diagram
- https://lucid.app/lucidchart/a4c73909-2a75-4ac4-bba0-3244f4d4fd8a/edit?view_items=O4kU8e3q9xm7&page=0_0&invitationId=inv_70886481-7013-49e4-a71e-47425d48fac9
+
+B) Class Diagram
+ https://lucid.app/lucidchart/9275ce97-93a4-4ed5-9ce1-81c178bdd146/edit?view_items=nflUETDp-cxI&page=0_0&invitationId=inv_87f7233d-9807-4445-b5d0-f5087e731562
 
  C) Sequence Diagram
  https://lucid.app/lucidchart/7919605e-8f49-4bc1-9b83-45a98de17462/edit?viewport_loc=-1164%2C-979%2C2125%2C3111%2C0_0&invitationId=inv_3003d4bd-6a4a-497f-abff-555b2613cc8e
